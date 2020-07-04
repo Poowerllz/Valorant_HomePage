@@ -1,0 +1,170 @@
+/*  header nav img {
+padding-top: 260px;
+padding-left: 220px;
+} */
+
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+
+ body{
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
+
+
+/*     margin: 0;
+    background-image: url("/frontend/public/assets/Valorant - Agent Jett page concept designBackground.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment:  fixed; */
+
+} 
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("/frontend/public/assets/BackgroundPage.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.first .info {
+    position: absolute;
+    width: 3846px;
+    height: 2399px;
+    background-image: url("/frontend/public/assets/BackPadding.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: #FF4656;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.first .info header {
+    background-color: #1F2326;
+    padding: 100px 1927px;
+    border-radius: 32px 32px 0 0 ;
+    width: 0;
+    height: 0;
+    display: flex;
+    align-items: center;
+}
+
+.first .info header .nav .name{
+    padding-left: 360px;
+}
+
+
+.first .info header a{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.first .info header a h1:hover{
+    color: black;
+    transition: 500ms;
+}
+
+.first .info header h1{
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 39px;
+line-height: 17px;
+text-align: center;
+margin: 0;
+color: #FFFFFF;
+background-color: rgba(245, 245, 245, 0.178);
+border-radius: 50px;
+padding: 30px;
+}
+
+.first .info header .nav{
+    display: flex;
+    position: absolute;
+    left: 340px;
+}
+
+.first .info header .imagem img {
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 90px;
+    top: 60px;
+    min-width: 500px;
+}
+
+.first .info footer {
+    position: absolute;
+    top : 2265px;
+    padding: 70px 1925px;
+    border-radius: 0px 0px 32px 32px ;
+    background-color: white;
+}
+
+.first .info .elements {
+    position: absolute;
+    left: 1120px;
+    top: 718px;
+}
+
+.first .info .box {
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    background-color: white;
+    padding: 800px 1100px;
+}
+
+.first .info .box h1{
+    position: absolute;
+    left: 180px;
+    top: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 70px;
+}
+
+.first .info .box h3{
+    position: absolute;
+    left: 180px;
+    top: 240px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    right: 180px;
+    color: #1F2326;
+}
+
+.first .jett {
+    position: absolute;
+    left: 2150px;
+    top: -130px;
+    min-width: 1900px;
+    
+}
+
+.first .knife {
+    position: absolute;
+    left: 1954px;
+    top: 360px;
+    width: 900px;
+    height: 900px;
+}
+
+
